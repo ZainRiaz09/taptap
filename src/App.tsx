@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './index.css';
 import Arrow from './icons/Arrow';
-import { bear, coin, highVoltage, notcoin, rocket, trophy } from './images';
+import { bear, coin, highVoltage, rocket, trophy } from './images';
 import { getCurrentLevel, levels } from './utils/levelSystem';
 import { hapticFeedback } from './utils/haptics';
 
