@@ -93,7 +93,7 @@ const App = () => {
         <div className="flex-grow flex flex-col items-center justify-center gap-6">
           <div className="relative" onClick={handleClick}>
             <img 
-              src={currentLevel.number === 1 ? notcoin : `/src/images/${currentLevel.coinImage}`} 
+              src={currentLevel.coinImage}
               width={256} 
               height={256} 
               alt={`Level ${currentLevel.number} coin`}

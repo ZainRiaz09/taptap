@@ -4,36 +4,44 @@ export interface Level {
   coinImage: string;
 }
 
+// Import all coin images
+import coin from '../images/coin.png';
+import coinLevel2 from '../images/coin_level2.png';
+import coinLevel3 from '../images/coin_level3.png';
+import coinLevel4 from '../images/coin_level4.png';
+import coinLevel5 from '../images/coin_level5.png';
+import coinLevel6 from '../images/coin_level6.png';
+
 export const levels: Level[] = [
   {
     number: 1,
     requiredPoints: 0,
-    coinImage: 'coin.png'
+    coinImage: coin
   },
   {
     number: 2,
     requiredPoints: 500,
-    coinImage: 'coin_level2.png'
+    coinImage: coinLevel2
   },
   {
     number: 3,
     requiredPoints: 1000,
-    coinImage: 'coin_level3.png'
+    coinImage: coinLevel3
   },
   {
     number: 4,
     requiredPoints: 2000,
-    coinImage: 'coin_level4.png'
+    coinImage: coinLevel4
   },
   {
     number: 5,
     requiredPoints: 3000,
-    coinImage: 'coin_level5.png'
+    coinImage: coinLevel5
   },
   {
     number: 6,
     requiredPoints: 5000,
-    coinImage: 'coin_level6.png'
+    coinImage: coinLevel6
   }
 ];
 
